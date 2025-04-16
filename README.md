@@ -45,6 +45,14 @@ cargo build-bpf
 solana program deploy ./target/deploy/hello_solana.so
 ```
 
+### 6. Run the client example
+
+After deploying the program, you can test it using the provided Rust client:
+
+```bash
+cargo run --example client
+```
+
 ---
 
 ## 📸 Demo Screenshots
